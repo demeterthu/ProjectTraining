@@ -1,0 +1,17 @@
+{
+  "name": "phuketsports",
+  "version": "1.0.0",
+  "description": "phuketsports website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "jastin",
+  "license": "GPL",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.5.0",
+    "quick.db": "^7.1.3"
+  }
+}
