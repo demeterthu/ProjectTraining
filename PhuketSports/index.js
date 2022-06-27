@@ -33,7 +33,6 @@ res.sendFile(__dirname + '/views/artikel/base.html')
 
 app.get('/tags/:tag?', function (req, res) {
 
-  // akan di perlengkap nanti saat sudah ada beberapa category terisi!
 if(!req.params.tag) {
    res.sendFile(__dirname + '/views/tags.html')
  } else if(req.params.tag === "tagName") { 
